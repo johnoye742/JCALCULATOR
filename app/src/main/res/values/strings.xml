@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">J CALCULATOR</string>
+    <string name="rubbish">Testing FontFace, might be fucked though</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="dot">.</string>
+    <string name="del">DEL</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="asterix">*</string>
+    <string name="divide">/</string>
+    <string name="equals">=</string>
+    <string name="tst"/>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sqrt">√</string>
+    <string name="title_activity_about_me">AboutMe</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="about_me">About Me</string>
+    <string name="lead_developer_john_oye">Lead Developer - John Oye</string>
+    <string name="lead_developer">Lead Developer</string>
+    <string name="john_oye">John Oye</string>
+    <string name="exit">Exit</string>
+</resources>

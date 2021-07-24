@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Toolbar android:layout_width="match_parent" android:layout_height="wrap_content"
+             android:background="@drawable/tb_bg"
+             android:paddingLeft="10dp"
+             android:paddingRight="10dp"
+             android:paddingBottom="3dp"
+             android:paddingTop="3dp"
+             android:title="@string/app_name"
+             android:titleTextColor="@color/white"
+             android:id="@+id/tb"
+             />
+    <HorizontalScrollView android:id="@+id/hsv1"
+                          android:layout_below="@id/tb"
+                          android:layout_width="wrap_content"
+
+                          android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp">
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textColor="@color/teal_200"
+                  android:textAlignment="viewStart"
+                  android:textSize="45sp"
+                  android:fontFamily="@font/mavenpro_bold" android:singleLine="true" android:maxLines="1"/>
+    </HorizontalScrollView>
+<HorizontalScrollView  android:layout_below="@id/hsv1" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content"
+              android:textColor="@color/teal_200"
+              android:text="@string/_0"
+              android:textAlignment="viewStart"
+
+              android:textSize="45sp"
+              android:fontFamily="@font/mavenpro_bold"/>
+</HorizontalScrollView>
+    <Button android:id="@+id/btn1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/_1"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn" android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"/>
+
+    <Button android:id="@+id/btn2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_toEndOf="@id/btn1"
+            android:layout_marginStart="15dp"
+            android:text="@string/_2"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"
+            />
+    <Button android:id="@+id/btn3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_toEndOf="@id/btn2"
+            android:layout_marginStart="15dp"
+            android:text="@string/_3"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+    <Button android:id="@+id/btn4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginStart="15dp"
+            android:text="@string/_4"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+    <Button android:id="@+id/btn5" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn4"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginStart="15dp"
+            android:text="@string/_5"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+    <Button android:id="@+id/btn6" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn5"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginStart="15dp"
+            android:text="@string/_6"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+
+    <Button android:id="@+id/btn7" android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn4"
+            android:layout_marginStart="15dp"
+            android:text="@string/_7"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+
+    <Button android:id="@+id/btn8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn7"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn4"
+            android:layout_marginStart="15dp"
+            android:text="@string/_8"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+
+    <Button android:id="@+id/btn9" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn8"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn4"
+            android:layout_marginStart="15dp"
+            android:text="@string/_9"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+
+    <Button android:id="@+id/btn0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn7"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn8"
+            android:layout_marginStart="15dp"
+            android:text="@string/_0"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+
+    <Button android:id="@+id/btn_equals" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btn0"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn8"
+            android:layout_marginStart="15dp"
+            android:text="@string/equals"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn_yellow"/>
+    <Button android:id="@+id/btn_dot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn7"
+            android:layout_marginStart="15dp"
+            android:text="@string/dot"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+
+    <Button android:id="@+id/btn_del" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/teal_200"
+            android:layout_toEndOf="@id/btn3"
+            android:layout_marginStart="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:text="@string/del"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@android:color/transparent"/>
+
+    <Button android:id="@+id/btn_add" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/btn_del"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_toEndOf="@id/btn3"
+            android:layout_marginStart="15dp"
+            android:text="@string/add"
+            android:textSize="25sp"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn_yellow"/>
+
+    <Button android:id="@+id/btn_subtract" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/btn_add"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_toEndOf="@id/btn3"
+            android:layout_marginStart="15dp"
+            android:text="@string/subtract"
+            android:textSize="25sp"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn_blue"/>
+
+    <Button android:id="@+id/btn_multiply" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/btn_subtract"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_toEndOf="@id/btn3"
+            android:layout_marginStart="15dp"
+            android:text="@string/asterix"
+            android:textSize="25sp"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn_red"/>
+
+    <Button android:id="@+id/btn_divide" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_below="@id/btn_multiply"
+            android:layout_marginTop="15dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_toEndOf="@id/btn3"
+            android:layout_marginStart="15dp"
+            android:text="@string/divide"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn_green"/>
+
+    <Button android:id="@+id/btn_sqrt" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:maxHeight="0dp" android:maxWidth="0dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:layout_below="@id/btn_dot"
+            android:layout_marginStart="15dp"
+            android:text="@string/sqrt"
+            android:fontFamily="@font/mavenpro_bold"
+            android:background="@drawable/btn"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:id="@+id/tst"
+                 android:visibility="gone"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:minWidth="290dp"
+    android:minHeight="50dp"
+    android:maxWidth="500dp"
+                 android:elevation="5dp"
+
+                 android:background="@drawable/toast"
+    android:maxHeight="100dp"
+                 android:padding="20dp"
+    android:layout_marginBottom="10dp">
+            <TextView android:textColor="@color/white" android:id="@+id/tv" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>
